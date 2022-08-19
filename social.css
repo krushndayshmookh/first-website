@@ -1,0 +1,49 @@
+﻿div div div {
+
+	display: inline-block;
+
+	margin-left: 5px;
+
+	height:100px;
+
+	width:100px;
+
+	border-radius:100%;
+
+	border:2px solid black;
+
+}
+
+
+.family{
+	border:2px dashed #0000ff
+}
+
+
+.friend{
+	border:2px dashed #008000
+}
+
+
+.servant{
+	border:2px dotted #905060
+}
+
+
+.enemy{
+	border:2px dashed #ff0000
+}
+
+
+#best_friend {
+	border:4px solid #00C957
+}
+
+
+#archnemesis {
+	border:4px solid #CC0000
+}
+
+#circles {
+	margin-top:20px
+}

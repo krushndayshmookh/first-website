@@ -1,0 +1,101 @@
+﻿* {
+	font-family:Segoe UI, sans-serif;
+}
+
+body {
+	background: url(Background.png);
+
+}
+
+#heading {
+	color:indigo;
+	/* text-align:center; (used without animation. now it is not req.)*/
+	font-family:Segoe UI Light, sans-serif;
+	
+	/* for all */
+	animation:krushn 5s linear 2s infinite alternate;
+		
+	/* for chrome */
+	-webkit-animation:krushn 5s linear 2s infinite alternate;
+	
+	/* for firefox */
+	-moz-animation:krushn 5s linear 2s infinite alternate;
+
+	/* for opera */
+	-o-animation:krushn 5s linear 2s infinite alternate;
+	
+	/* for ie */
+	-ms-animation:krushn 5s linear 2s infinite alternate;
+}
+
+@keyframes krushn {
+	0% {margin-left:0px;}
+	100% {margin-left:500px;}
+}
+
+@-webkit-keyframes krushn {
+	0% {margin-left:0px;}
+	100% {margin-left:500px;}
+}
+
+@-moz-keyframes krushn {
+	0% {margin-left:0px;}
+	100% {margin-left:500px;}
+}
+
+@-o-keyframes krushn {
+	0% {margin-left:0px;}
+	100% {margin-left:500px;}
+}
+
+@-ms-keyframes krushn {
+	0% {margin-left:0px;}
+	100% {margin-left:500px;}
+}
+
+#photo {
+	border:1px dodgerblue solid;
+	border-radius:50%;
+	text-align:center;
+}	
+#photo:hover {
+	-webkit-animation:krushnPhoto 3s 1 linear;
+}
+
+@-webkit-keyframes krushnPhoto {
+	0% {height:96px;width:96px;}
+	50% {height:192px;width:192px;}
+	75% {height:48px;width:48px;}
+	100% {height:96px;width:96px;}
+}
+
+h3 {
+	color:midnightblue;
+}
+.menu {
+	height:25px;width:auto;	
+}
+
+.menu_item {
+	border:1px #3366FF solid;
+	color:orange;
+	text-align:center;
+	background-color:#000099;
+	display:inline-block;
+	padding:3px;
+	border-radius:3px;
+
+}
+
+.menu_item:hover {
+	background-color:cornflowerblue;
+}
+
+a {
+	text-decoration:none;
+	color:orange;
+	font-weight:normal;
+}
+a:hover{
+	color:#66FF66
+}
